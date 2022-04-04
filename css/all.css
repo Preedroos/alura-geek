@@ -1,0 +1,25 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+h2 {
+    color: #464646;
+    font-weight: bold;
+}
+
+a {
+    color: #2A7AE4;
+    font-weight: bold;
+}
+
+p {
+    color: #464646;
+}
+
+main {
+    background-color: #e5e5e580;
+}
