@@ -7,10 +7,14 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    width: 70%;
+    width: 80%;
     height: 368px;
     margin: auto;
     padding: 64px 0;
+}
+
+.footer-item:nth-child(3) {
+    width: 50%;
 }
 
 .footer-item ul {
@@ -19,6 +23,45 @@ footer {
 
 .footer-item li {
     padding: 10px 0;
+}
+
+.footer-item form h3 {
+    padding: 5px 0;
+    font-weight: bold;
+}
+
+#form-name {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 56px;
+    padding: 10px 10px;
+    box-shadow: 0 1px 2px #C8C8C8;
+}
+
+#form-name * {
+    display: block;
+    width: 100%;
+}
+
+#form-name label {
+    font-size: 12px;
+    color: #A2A2A2;
+    margin-bottom: 5px;
+}
+
+#message-area {
+    width: 100%;
+    height: 82px;
+    display: block;
+    padding: 15px 10px;
+    margin: 8px 0;
+    box-shadow: 0 1px 2px #C8C8C8;
+    text-decoration: none;
+    resize: none;
+}
+
+#message-area::placeholder {
+    color: #A2A2A2;
 }
 
 #footer-submit {

@@ -37,10 +37,13 @@ header {
 
 #search-bar input {
     background-color: #F5F5F5;
+    width: 100%;
+    text-decoration: none
 }
 
 #search-bar input::placeholder {
     color: #A2A2A2;
+    font-size: 14px;
 }
 
 #search-bar img {

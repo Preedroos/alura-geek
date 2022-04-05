@@ -4,6 +4,9 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    color: #464646;
 }
 
 h2 {
@@ -16,10 +19,14 @@ a {
     font-weight: bold;
 }
 
-p {
-    color: #464646;
-}
-
 main {
     background-color: #e5e5e580;
+}
+
+input:focus {
+    outline: none;
+}
+
+textarea:focus {
+    outline: none;
 }
