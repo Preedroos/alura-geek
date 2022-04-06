@@ -36,9 +36,9 @@
         <section id="form-container">
             <form action="">
                 <h2>Iniciar Sessão</h1>
-                <input type="text" name="email" placeholder="Escreva seu email">
-                <input type="password" name="password" placeholder="Escreva sua senha">
-                <button type="submit">Entrar</button>
+                <input id="email" type="text" name="email" placeholder="Escreva seu email">
+                <input id="password" type="password" name="password" placeholder="Escreva sua senha">
+                <button id="main-submit" type="submit">Entrar</button>
             </form>
         </section>
     </main>
@@ -62,8 +62,12 @@
                 </div>
                 <div class="footer-item">
                     <form action="">
-                        <p>Fale conosco</p>
-                        <input type="text" placeholder="Escreva sua mensagem">
+                        <h3>Fale conosco</h3>
+                        <div id="form-name">
+                            <label for="name">Nome</label>
+                            <input type="text" name="name" autocomplete="off">
+                        </div>
+                        <textarea name="message" id="message-area" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
                         <button id="footer-submit" type="submit">Enviar mensagem</button>
                     </form>
                 </div>
