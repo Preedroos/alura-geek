@@ -1,83 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
 
-    <link rel="stylesheet" href="css/login.css">
-    <link rel="stylesheet" href="css/all.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway" rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="css/login.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <header>
-        <section id="header">
-            <div id="left">
-                <a href="home.html"><div id="logo">
-                    <img class="logo-img" src="images/logo-control.svg" alt="">
-                    <img class="logo-img" src="images/logo-alura.svg" alt="">
-                    <img class="logo-img" src="images/logo-geek.svg" alt="">
-                </div></a>
-                <div id="search-bar">
-                    <input type="search" placeholder="O que deseja encontrar?">
-                    <img src="images/header-lupa.svg" alt="">
-                </div>
-            </div>
-            <a href="login.html"><button id="login-button">Login</button></a>
-        </section>
+      <section id="header">
+        <div id="left">
+          <a href="home.html"
+            ><div id="logo">
+              <img class="logo-img" src="images/logo-control.svg" alt="" />
+              <img class="logo-img" src="images/logo-alura.svg" alt="" />
+              <img class="logo-img" src="images/logo-geek.svg" alt="" /></div
+          ></a>
+          <div id="search-bar">
+            <input type="search" placeholder="O que deseja encontrar?" />
+            <img src="images/header-lupa.svg" alt="" />
+          </div>
+        </div>
+        <a href="login.html"><button id="login-button">Login</button></a>
+      </section>
     </header>
 
     <main>
-        <section id="form-container">
-            <form action="">
-                <h2>Iniciar Sessão</h1>
-                <input id="email" type="text" name="email" placeholder="Escreva seu email">
-                <input id="password" type="password" name="password" placeholder="Escreva sua senha">
-                <button id="main-submit" type="submit">Entrar</button>
-            </form>
-        </section>
+      <section id="form-container">
+        <form action="">
+          <h2>Iniciar Sessão</h2>
+          <input
+            id="email"
+            type="text"
+            name="email"
+            placeholder="Escreva seu email"
+          />
+          <input
+            id="password"
+            type="password"
+            name="password"
+            placeholder="Escreva sua senha"
+          />
+          <button id="main-submit" type="submit">Entrar</button>
+        </form>
+      </section>
     </main>
 
     <footer>
-        <section id="content-footer">
-                <div id="logo" class="footer-item">
-                    <img class="logo-img" src="images/logo-control.svg" alt="">
-                    <img class="logo-img" src="images/logo-alura.svg" alt="">
-                    <img class="logo-img" src="images/logo-geek.svg" alt="">
-                </div>
-                <div class="footer-item">
-                    <ul>
-                        <li><p>Quem somos nós</p></li>
-                        <li><p>Politica de privacidade</p></li>
-                        <li><p>Programa fidelidade</p></li>
-                        <li><p>Nossas lojas</p></li>
-                        <li><p>Quero ser franquado</p></li>
-                        <li><p>Anuncie aqui</p></li>
-                    </ul>
-                </div>
-                <div class="footer-item">
-                    <form action="">
-                        <h3>Fale conosco</h3>
-                        <div id="form-name">
-                            <label for="name">Nome</label>
-                            <input type="text" name="name" autocomplete="off">
-                        </div>
-                        <textarea name="message" id="message-area" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
-                        <button id="footer-submit" type="submit">Enviar mensagem</button>
-                    </form>
-                </div>
-        </section>
+      <section id="content-footer">
+        <div id="logo" class="footer-item">
+          <img class="logo-img" src="images/logo-control.svg" alt="" />
+          <img class="logo-img" src="images/logo-alura.svg" alt="" />
+          <img class="logo-img" src="images/logo-geek.svg" alt="" />
+        </div>
+        <div class="footer-item">
+          <ul>
+            <li><p>Quem somos nós</p></li>
+            <li><p>Politica de privacidade</p></li>
+            <li><p>Programa fidelidade</p></li>
+            <li><p>Nossas lojas</p></li>
+            <li><p>Quero ser franquado</p></li>
+            <li><p>Anuncie aqui</p></li>
+          </ul>
+        </div>
+        <div class="footer-item">
+          <form action="">
+            <h3>Fale conosco</h3>
+            <div id="form-name">
+              <label for="name">Nome</label>
+              <input type="text" name="name" autocomplete="off" />
+            </div>
+            <textarea
+              name="message"
+              id="message-area"
+              cols="30"
+              rows="10"
+              placeholder="Escreva sua mensagem"
+            ></textarea>
+            <button id="footer-submit" type="submit">Enviar mensagem</button>
+          </form>
+        </div>
+      </section>
 
-        <section id="by-footer">
-            <p>Desenvolvido por Pedro Cabral</p>
-            <p>2022</p>
-        </section>
+      <section id="by-footer">
+        <p>Desenvolvido por Pedro Cabral</p>
+        <p>2022</p>
+      </section>
     </footer>
-</body>
-
+  </body>
 </html>
